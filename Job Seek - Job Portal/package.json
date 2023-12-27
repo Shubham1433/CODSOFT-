@@ -1,5 +1,21 @@
-{
+{ 
+  "name": "my-app",
+  "version": "0.1.0",
+ "homepage": "https://Shubham1432.github.io/CODSOFT/Job Seek - Job Portal",
+  "private": true,
   "dependencies": {
     "dotenv": "^16.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
